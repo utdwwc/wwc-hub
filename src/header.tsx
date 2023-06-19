@@ -1,8 +1,8 @@
-import React from 'react';
 import styles from './css/header.module.css';
 
 function Header() {
     return (
+      <>
       <div className={styles.headerContainer} >
       <div className={styles.leftSection} >
         <div className={styles.titleHead} >
@@ -19,6 +19,7 @@ function Header() {
             <img src='mascotBack.svg' alt='mascot background' className={styles.mascotFront}></img>
         </div>
       </div>
+      </>
     );
   }
   

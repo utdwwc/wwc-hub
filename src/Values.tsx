@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './css/values.module.css';
 
 function Values() {
@@ -13,7 +12,6 @@ function Values() {
             </div>
             <img src='valuesBack.svg' alt='valuesVector' className={styles.vector} />
         </div>
-        
     </>
     );
   }

@@ -1,0 +1,32 @@
+.bottomBar {
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.textField {
+    position: absolute;
+    top: 77%;
+    left: 32%; 
+    text-align: center;
+}
+
+.sectionContainer {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 45px;  
+    margin-top: 1%;
+    margin-right: 4%;
+    align-items: right;
+    justify-content: right;
+    z-index: 2;
+    
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 600 !important;
+
+}

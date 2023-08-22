@@ -1,12 +1,50 @@
-/* .headerTitle {
+.eventPosition {
+    padding-top: 110%;
+    position: relative;
+}
+
+.headerTitle {
+    position: absolute;
     width: 626px;
     font-weight: 700;
     font-size: 64px;
-    text-align: left;
     letter-spacing: -0.02em;
     color: #000000;
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding-top: 8%;
-} */
+    padding-left: 7%;
+    z-index: 10;
+}
+
+.headerSubtitle {
+    position: absolute;
+    padding-top: 6%;
+    justify-content: left;
+    padding-left: 8%;
+    font-size: 25px;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.backBlur {
+    display: flex;
+    background-image: url('../images/eventsBack.svg');
+    background-repeat: no-repeat;
+
+
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.carousel {
+    position: absolute;
+    z-index: 5;
+    margin-top: 12%;
+    margin-left: 6%;
+    width: 95vw;
+}

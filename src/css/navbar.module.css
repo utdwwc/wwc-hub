@@ -24,12 +24,13 @@ header {
 .sectionContainer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 45px;  
+    gap: 35px;  
     margin-top: 1%;
     margin-right: 4%;
     align-items: right;
     justify-content: right;
     z-index: 2;
+    font-weight: 800;
     
 }
 
@@ -37,8 +38,7 @@ header {
     flex: 1;
     margin: 10px;
     text-decoration: none;
-    font-weight: 600 !important;
-
+    font-weight: 800 !important;
 }
 
 h3 {

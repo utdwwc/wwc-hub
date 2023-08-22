@@ -1,10 +1,11 @@
-import styles from './css/navbar.module.css';
+import styles from '../css/navbar.module.css';
+import logo from '../images/logo.svg';
 
 function Navbar() {
     return (
       <header>
         <div className={styles.logoContainer} >
-            <img src='logo.svg' alt="logo" ></img>
+            <img src={logo} alt="logo" ></img>
         </div>
         <nav className={styles.sectionContainer} >
             <a href='#about' className={styles.section}>

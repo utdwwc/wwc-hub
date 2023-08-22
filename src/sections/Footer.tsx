@@ -1,9 +1,9 @@
-import styles from './css/footer.module.css';
+import styles from '../css/footer.module.css';
 
 function Footer() {
     return (
-      <div className={styles.bottomBar} >
-        <img src='footers.svg' alt='footer_back' />
+      <section className={styles.bottomBar} >
+        <img src='footers.svg' className={styles.backImage} alt='footer_back' />
         <div className={styles.textField} >
         <nav className={styles.sectionContainer} >
             <a href='about' className={styles.section}>
@@ -23,7 +23,7 @@ function Footer() {
             </a>
         </nav>
         </div>
-      </div>
+      </section>
     );
   }
   

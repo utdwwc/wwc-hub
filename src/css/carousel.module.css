@@ -1,0 +1,58 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden; 
+    width: 100vw;
+    max-width: 100%;
+  }
+  
+  .carouselContainer {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+
+  }
+  
+  .carouselSlide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+  }
+  
+  .activeSlide {
+    transform: translateX(0);
+  }
+  
+.arrows {
+    padding-right: 15%;
+    gap: 20px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+}
+
+  .leftArrow,
+  .rightArrow {
+    transform: translateY(-50%);
+    font-size: 40px;
+    z-index: 5;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .rightArrow::before {
+    content: "\2192"; /* Unicode code for right arrow */
+    font-size: 60px; /* Adjust the size as needed */
+    line-height: 1;
+  }
+  
+  .leftArrow::before {
+    content: "\2190"; /* Unicode code for left arrow */
+    font-size: 60px; /* Adjust the size as needed */
+    line-height: 1;
+  }

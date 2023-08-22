@@ -1,0 +1,43 @@
+.position {
+    padding-top: 10%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 101vw;
+}
+
+.gridContainer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr);    /* 3 rows */
+    gap: 30%; 
+  }
+  
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+  }
+  
+.content {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    padding-bottom: 6px;
+    font-weight: 800;
+    font-size: 20px;
+  }

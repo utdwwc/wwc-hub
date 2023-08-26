@@ -1,18 +1,18 @@
 .eventPosition {
-    padding-top: 110%;
     position: relative;
 }
 
 .headerTitle {
     position: absolute;
     width: 626px;
-    font-weight: 700;
+    color: #000;
     font-size: 64px;
-    letter-spacing: -0.02em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 112.5% */
+    letter-spacing: -1.28px;
+    text-transform: capitalize;
     color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     padding-left: 7%;
     z-index: 10;
 }
@@ -21,10 +21,15 @@
     position: absolute;
     padding-top: 6%;
     justify-content: left;
-    padding-left: 8%;
-    font-size: 25px;
+    padding-left: 7.5%;
+    font-size: 36px;
     font-weight: 500;
     z-index: 10;
+    color: #000;
+    font-style: normal;
+    line-height: 60px; /* 166.667% */
+    letter-spacing: -0.72px;
+
 }
 
 .backBlur {

@@ -16,7 +16,7 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 45px;  
     margin-top: 1%;
-    margin-right: 4%;
+    margin-right: 10%;
     align-items: right;
     justify-content: right;
     z-index: 2;
@@ -27,10 +27,41 @@
     flex: 1;
     margin: 10px;
     text-decoration: none;
-    font-weight: 600 !important;
-
+    font-weight: 800 !important;
+    background-color: transparent;
+    border: none;
 }
 
 .backImage {
     width: 100vw;
+}
+
+.contact {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    top: 50%;
+    position: absolute;
+    top: 37%; 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact:hover {
+    box-shadow: 0px 4px 0px #070707;
+}
+
+.bigContain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

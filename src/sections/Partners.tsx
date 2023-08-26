@@ -2,9 +2,9 @@ import styles from '../css/partner.module.css';
 
 function Partners() {
     return (
-        <section>
-            <img className={styles.partner} src='partnerPic.svg' alt='partners' />
-        </section>
+    <section className={styles.container}>
+        <img className={styles.partner} src='partnerPic.svg' alt='partners' />
+    </section>
     );
   }
   

@@ -1,29 +1,37 @@
+import React from 'react';
 import styles from '../css/navbar.module.css';
 import logo from '../images/logo.svg';
 
-function Navbar() {
+
+const Navbar = () => {
+    const scrollToSection = (sectionId: string) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }      
+      };    
     return (
       <header>
         <div className={styles.logoContainer} >
             <img src={logo} alt="logo" ></img>
         </div>
-        <nav className={styles.sectionContainer} >
-            <a href='#about' className={styles.section}>
-                <h3>About</h3>
-            </a>
-            <a href='#values' className={styles.section}>
-                <h3>Values</h3>
-            </a>
-            <a href='#events' className={styles.section}>
-                <h3>Events</h3>
-            </a>
-            <a href='#officers' className={styles.section}>
-                <h3>Officers</h3>
-            </a>
-            <a href='#partners' className={styles.section}>
-                <h3>Partners</h3>
-            </a>
-        </nav>
+            <nav className={styles.sectionContainer} >
+                <button onClick={() => scrollToSection('header')} className={styles.section}>
+                    <h3>About</h3>
+                </button>
+                <button onClick={() => scrollToSection('values')} className={styles.section}>
+                    <h3>Values</h3>
+                </button>
+                <button onClick={() => scrollToSection('events')} className={styles.section}>
+                    <h3>Events</h3>
+                </button>
+                <button onClick={() => scrollToSection('officers')} className={styles.section}>
+                    <h3>Officers</h3>
+                </button>
+                <button onClick={() => scrollToSection('partners')} className={styles.section}>
+                    <h3>Partners</h3>
+                </button>
+            </nav>
         <div className={styles.line} ></div>
       </header>
     );

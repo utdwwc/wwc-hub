@@ -39,7 +39,6 @@ const Card: React.FC<CardProps> = ({ title, date, subtitle, picture, startTime, 
                 lightMode="light"
                 pastDateHandling="disable"
         ></AddToCalendarButton>
-      
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Card from '../components/card';
 import styles from '../css/carousel.module.css';
+import leftArrow from '../images/leftarrow.svg';
+import rightArrow from '../images/rightarrow.svg';
 
 interface CardProps {
   title: string;
@@ -27,17 +29,18 @@ const Carousel: React.FC<CarouselProps> = ({ cards }) => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length);
   };
 
+
   return (
     <>
     <div className={styles.arrows}>
-      <button className={styles.leftArrow} onClick={goToPrevSlide}></button>
-      <button className={styles.rightArrow} onClick={goToNextSlide}></button>
+        <img src={leftArrow} className={styles.leftArrow} onClick={goToPrevSlide} alt='leftArrow' />
+        <img src={rightArrow} className={styles.rightArrow} onClick={goToNextSlide} alt='rightArrow' />
     </div>
     <div className={styles.carousel}>
       <div className={styles.carouselContainer}>
         <div
           className={styles.carouselSlide}
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          style={{ transform: `translateX(-${currentIndex * 33}%)` }}
         >
           {cards.map((card, index) => (
             <div key={index} className={styles.card}>

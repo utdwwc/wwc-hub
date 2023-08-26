@@ -17,6 +17,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^3.3.3",
@@ -48,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-scroll": "^1.8.7",
     "@types/react-slick": "^0.23.10",
     "vivid-studio": "^0.15.0"
   }

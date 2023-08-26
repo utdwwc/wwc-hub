@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-bottom: 110%;
 }
 
 .heading {
@@ -31,19 +32,22 @@
     width: 80%;
     max-width: 816px;
     height: auto;
-    font-weight: 600;
     font-size: 36px;
-    line-height: 1.5;
-    letter-spacing: -0.02em;
+    font-style: normal;
+    font-weight: 600;
     color: #000000;
     order: 1;
     flex-grow: 0;
     text-align: center;
     margin-top: 10%;
     z-index: 3;
+    line-height: 60px; /* 166.667% */
+    letter-spacing: -0.72px;
+
 }
 
 .vector {
+    display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -62,7 +66,207 @@
 
     .subHeading {
         padding-top: 10%;
-        font-size: 28px;
-        line-height: 1.4;
+        font-size: 36px;
+        line-height: 60px;
     }
+}
+
+.cardContainer {
+    position: absolute;
+    margin-top: 120%;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.topLeft {
+    width: 609px;
+    height: 651px;
+    border: solid #000000;
+    color: black;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #FFF;
+    justify-content: center;
+    align-items: center;
+    /* within card spacing */
+    padding-top: 40px;
+    text-align: center;
+    
+    /* actual card spacing */
+    margin-right: 31px;
+    margin-bottom: 47px;
+}
+
+.bottomLeft {
+    width: 612px;
+    height: 454px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #FFE8ED;
+    justify-content: center;
+    align-items: center;
+}
+
+.topRight {
+    width: 577px;
+    height: 474px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #E2F6F6;
+    margin-bottom: 48px;
+}
+
+.bottomRight {
+    width: 577px;
+    height: 670px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.topLeft:hover, .bottomLeft:hover, .topRight:hover, .bottomRight:hover {
+    box-shadow: 0px 8px 0px 0px #070707;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.5px; /* 103.75% */
+    letter-spacing: -0.8px;
+    margin-bottom: 31px;
+}
+
+.description {
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36.5px; /* 182.5% */
+    letter-spacing: -0.4px;
+    width: 460px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.workshops {
+    padding-top: 37px;
+    padding-left: 186px;
+    padding-right: 186px;
+}
+
+.title2 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.5px; /* 103.75% */
+    letter-spacing: -0.8px;
+    margin-bottom: 27px;
+    margin-top: 27px;
+    margin-left: 33px;
+    width: 546px;
+}
+
+.description2 {
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36.5px; /* 182.5% */
+    letter-spacing: -0.4px;
+    width: 460px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.career {
+    padding-top: 58px;
+    padding-left: 186px;
+    padding-right: 186px;
+}
+
+.title3 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.5px; /* 103.75% */
+    letter-spacing: -0.8px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+    margin-left: 13px;
+    width: 546px;
+}
+
+.description3 {
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36.5px; /* 182.5% */
+    letter-spacing: -0.4px;
+    width: 450px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+
+.hack {
+    padding-top: 67px;
+    padding-left: 86px;
+    padding-right: 86px;
+    padding-bottom: 21px;
+}
+
+.title4 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41.5px; /* 103.75% */
+    letter-spacing: -0.8px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+    margin-left: 13px;
+    width: 546px;
+}
+
+.description4 {
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36.5px; /* 182.5% */
+    letter-spacing: -0.4px;
+    width: 460px;
+    padding-left: 59px;
+    margin-bottom: 20px;
 }

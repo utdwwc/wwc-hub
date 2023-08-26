@@ -46,6 +46,7 @@ const cardData = [
         location:'ECSN',
     },
 ];
+
 function Events() {
     return (
         <>
@@ -56,14 +57,15 @@ function Events() {
                         Check out all of our upcoming events
                     </div>
                     <div className={styles.carousel} >
-                        <CardCarousel cards={cardData} />
+                        <div className={styles.actionCarousel} >
+                            <CardCarousel cards={cardData} />
+                        </div>
                     </div>
                 </div>
                 <img className={styles.backBlur} src={backPic} alt="Back" />
             </div>
         </>
     );
-  }
-  
+}
   export default Events;
   

@@ -12,7 +12,7 @@ function Header() {
             At Women Who Compute, we are dedicated to the empowerment and advancement of women in engineering and computer science.
         </div>
         <div className={styles.sectionButton} >
-            Get Started
+            <h3 className={styles.sectionText}>Get Started</h3>
         </div>
       </div>
         <div className={styles.mascotBack} >

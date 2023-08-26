@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.section {
+    flex: 1;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 800 !important;
+}
+
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars due to cursor overflow */
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Hide content that overflows the viewport */
+  position: relative;
+}
+
+.custom-cursor {
+  position: absolute;
+  width: 32px; /* Set the width of your custom cursor */
+  height: 32px; /* Set the height of your custom cursor */
+  background-image: url('../public/mascot.png');
+  background-size: cover;
+  pointer-events: none; /* Allow interactions to pass through the cursor */
+}

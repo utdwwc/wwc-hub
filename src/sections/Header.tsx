@@ -1,5 +1,6 @@
 import styles from '../css/header.module.css';
 
+
 function Header() {
     return (
       <>
@@ -11,9 +12,9 @@ function Header() {
         <div className={styles.titleSubHead} >
             At Women Who Compute, we are dedicated to the empowerment and advancement of women in engineering and computer science.
         </div>
-        <div className={styles.sectionButton} >
-            <h3 className={styles.sectionText}>Get Started</h3>
-        </div>
+        <button className={styles.sectionButton}>
+            <p className={styles.sectionText}>Get Started</p>
+        </button>
       </div>
         <div className={styles.mascotBack} >
             <img src='mascotBack.svg' alt='mascot background' className={styles.mascotFront}></img>

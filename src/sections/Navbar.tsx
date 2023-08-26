@@ -16,7 +16,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" ></img>
         </div>
             <nav className={styles.sectionContainer} >
-                <button onClick={() => scrollToSection('header')} className={styles.section}>
+                <button onClick={() => scrollToSection('about')} className={styles.section}>
                     <h3>About</h3>
                 </button>
                 <button onClick={() => scrollToSection('values')} className={styles.section}>

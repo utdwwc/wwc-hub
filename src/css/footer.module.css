@@ -16,7 +16,7 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 45px;  
     margin-top: 1%;
-    margin-right: 10%;
+    margin-right: 12%;
     align-items: right;
     justify-content: right;
     z-index: 2;

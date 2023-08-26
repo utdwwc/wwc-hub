@@ -31,7 +31,7 @@ import { useState } from 'react';
     <div className="App" onMouseMove={handleMouseMove}>
     <div className="custom-cursor"></div>
         < Navbar />
-        <div id="header">
+        <div id="about">
           < Header />
         </div>
         <div id="values">

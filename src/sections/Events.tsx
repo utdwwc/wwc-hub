@@ -3,7 +3,6 @@ import backPic from '../images/eventsBack.svg';
 import CardCarousel from '../components/carousel';
 
 //Pictures
-import fillerInsta from '../images/fillerInsta.svg';
 import kickOffPost from '../images/events/kickoffPost.jpeg';
 import goldmanSachs from '../images/events/goldmanSachs.png';
 

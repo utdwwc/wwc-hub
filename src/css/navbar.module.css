@@ -59,3 +59,12 @@ h3 {
     border: 0.5px solid #000000;
     z-index: 2;
 }
+
+  
+  /* Styles for mobile screens */
+  @media screen and (max-width: 767px) {
+    .navbarContainer {
+      display: none;
+    }
+  }
+  

@@ -1,49 +1,30 @@
 import styles from '../css/events.module.css';
 import backPic from '../images/eventsBack.svg';
 import CardCarousel from '../components/carousel';
-import fillerInsta from '../images/fillerInsta.svg';
 
+//Pictures
+import fillerInsta from '../images/fillerInsta.svg';
+import kickOffPost from '../images/events/kickoffPost.jpeg';
+import goldmanSachs from '../images/events/goldmanSachs.png';
 
 const cardData = [
     {
-        
-        title:'Pulling an All Nighter',
-        date: '2023-14-08',
-        subtitle:'9 PM @ ECSW',
-        picture: fillerInsta,
-        startTime:'12:00',
-        endTime:'13:00',
-        location:'ECSW',
+        title:'2023 Fall Kickoff',
+        date: '2023-15-09',
+        subtitle:'7 PM @ SLC 2.304',
+        picture: goldmanSachs,
+        startTime:'15:00',
+        endTime:'16:00',
+        location:'SLC 2.304',
     },
     {
-       
-        title:'Pulling an All Nighter',
-        date: '2023-15-08',
-        subtitle:'10 PM @ ECSW',
-        picture: fillerInsta,
-        startTime:'13:00',
-        endTime:'14:00',
-        location:'ECSS',
-    },
-    {
-        
-        title:'Pulling an All Nighter',
-        date: '2023-16-08',
-        subtitle:'11 PM @ ECSW',
-        picture: fillerInsta,
-        startTime:'11:00',
-        endTime:'14:00',
-        location:'ECSN',
-    },
-    {
-   
-        title:'Pulling an All Nighter',
-        date: '2023-16-08',
-        subtitle:'12 PM @ ECSW',
-        picture: fillerInsta,
-        startTime:'12:00',
-        endTime:'14:00',
-        location:'ECSN',
+        title:'2023 Fall Kickoff',
+        date: '2023-15-09',
+        subtitle:'7 PM @ SLC 2.304',
+        picture: kickOffPost,
+        startTime:'15:00',
+        endTime:'16:00',
+        location:'SLC 2.304',
     },
 ];
 

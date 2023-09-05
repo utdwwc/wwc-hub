@@ -1,3 +1,6 @@
+@media screen and (min-width: 768px) { 
+}
+
 .eventPosition {
     position: relative;
 }
@@ -57,7 +60,9 @@
 @media screen and (max-width: 767px) {
     .eventPosition {
         padding-top: 250%;
+        width: 100vw;
     }
+
 
     .headerTitle {
         font-size: 25px;
@@ -66,6 +71,7 @@
         line-height: 72px; /* 288% */
         letter-spacing: -0.5px;
         text-transform: capitalize;
+        width: 90vw;
     }
 
     .headerSubtitle {
@@ -79,6 +85,21 @@
     .backBlur {
         width: 100vw;
         height: 90vh;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100vw;
+    }
+    
+    .carousel {
+        position: absolute;
+        z-index: 5;
+        margin-top: 12%;
+        margin-left: 6%;
+        width: 95vw;
     }
 
 }

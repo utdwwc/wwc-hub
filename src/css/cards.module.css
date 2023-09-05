@@ -11,6 +11,8 @@
     background: #FFF;
     margin-left: 15px;
     margin-right: 15px;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
   }
 
   .pic2 {
@@ -21,6 +23,8 @@
     border-radius: 30px;
     border: 1px solid #000;
     z-index: 4;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
   }
 
   .cardTitle2 {
@@ -31,7 +35,8 @@
     font-weight: 700;
     letter-spacing: -0.4px;
     text-transform: capitalize;
-
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
   }
 
   .cardSubtitle2 {
@@ -42,6 +47,8 @@
     letter-spacing: -0.4px;
     text-transform: capitalize;
     text-align: center;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
   }
 
   .addCalendar2 {
@@ -49,6 +56,8 @@
     justify-content: center;
     align-items: center;
     padding-top: -10%;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
   }
 
 }

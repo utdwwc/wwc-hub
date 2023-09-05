@@ -27,7 +27,7 @@ import { useState } from 'react';
   
   return (
     <>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <div className="App" onMouseMove={handleMouseMove}>
     <div className="custom-cursor"></div>
         < Navbar />

@@ -11,9 +11,9 @@
 
   .scrollText2 {
     position: absolute;
-    overflow: hidden;
+    overflow: hidden !important;
     background-repeat: repeat;
-    animation: scrollText 10s linear infinite;
+    /* animation: scrollText 10s linear infinite; */
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -21,7 +21,8 @@
     line-height: 72px; /* 112.5% */
     letter-spacing: -1.28px;
     text-transform: uppercase;
-    width: 100%;
+    text-align: center;
+    width: 70vw;
     height: 50px;
   }
 
@@ -55,6 +56,7 @@
     background-size: cover; 
     background-repeat: no-repeat;
     padding-top: 75px;
+    width: 100vw;
 
   }
 
@@ -64,6 +66,7 @@
 
   .gridContainer2 {
     padding-top: 20%;
+
   }
 
   .row {
@@ -127,7 +130,7 @@
   .scrollText {
     position: absolute;
     margin-top: 23%;
-    overflow: hidden;
+    overflow: hidden !important;
     background-repeat: repeat;
     animation: scrollText 10s linear infinite;
     color: #000;
@@ -137,7 +140,7 @@
     line-height: 72px; /* 112.5% */
     letter-spacing: -1.28px;
     text-transform: uppercase;
-    width: 100%;
+    width: 100vw;
     height: 60px;
   }
 

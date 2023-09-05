@@ -22,7 +22,7 @@ function Team() {
             <div className={styles.headerType1} >
                 <div className={styles.topLine}></div>
                 <div className={styles.scrollText} >
-                    Meet The WWC Team Meet The WWC Team 
+                    Meet The WWC Team
                 </div>
                 <div className={styles.bottomLine}></div>
             </div>

@@ -70,7 +70,7 @@
     box-shadow: 0px 4px 0px #070707 !important;
 }
 
-.mascotBack {
+.mascotContainer {
     float: right;
 }
 
@@ -79,4 +79,62 @@
     margin-top: -75%;
     height: 110vh;
     max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+@media screen and (max-width: 767px) {
+    
+    .leftSection {
+        padding-left: 5%;
+    }
+    .titleHead {
+      text-align: center;
+      width: 90vw;
+      font-size: 36px;
+      padding-top: 10%;
+    }
+
+    .titleSubHead {
+        text-align: center;
+        width: 80vw;
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 5%;
+        padding-top: 16px;
+    }
+
+    .mascotContainer {
+        padding-top: -22%;
+    }
+
+    .mascotFront {
+        display: none;
+    }
+    
+    .mascotFront2 {
+        width: 100vw;
+    }
+
+    .sectionButton {
+        display: none;
+    }
+
+    .headerContainer {
+        padding-bottom: 2%;
+    }
+
+  }
+
+@media screen and (min-width: 768px) {
+    .mascotFront {
+      background-image: url('../images/mascotBack.svg');
+      background-repeat: no-repeat;
+    }
+
+    .mascotFront2 {
+        display: none;
+    }
+  }
+  

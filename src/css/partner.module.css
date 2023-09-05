@@ -1,3 +1,12 @@
+@media screen and (max-width: 767px) {
+  .container {
+    display: none;
+  }
+  .partner {
+    display: none;
+  }
+}
+
 .partner {
     padding-top: 4%;
 }

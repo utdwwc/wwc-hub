@@ -45,8 +45,8 @@ import { useState } from 'react';
         </div>
         <div id="partners">
           < Partners />
-        </div>
-        < Footer />
+        </div> 
+         < Footer />
     </div>
     </>
   );

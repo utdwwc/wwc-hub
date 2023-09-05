@@ -16,6 +16,9 @@ function Footer() {
             <a href={mailtoLink} className={styles.contact} >
                 <p className={styles.contactText}>Contact Us</p>
             </a>
+            <a href={mailtoLink} className={styles.contact2} >
+                <p className={styles.contactText2}>Contact Us</p>
+            </a>
             <div className={styles.textField} >
             <nav className={styles.sectionContainer} >
                 <button onClick={() => scrollToSection('header')} className={styles.section}>

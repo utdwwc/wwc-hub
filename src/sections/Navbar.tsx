@@ -11,7 +11,7 @@ const Navbar = () => {
           }      
       };    
     return (
-      <header>
+      <header className={styles.navbarContainer}>
         <div className={styles.logoContainer} >
             <img src={logo} alt="logo" ></img>
         </div>

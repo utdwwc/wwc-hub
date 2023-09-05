@@ -53,3 +53,32 @@
     margin-left: 6%;
     width: 95vw;
 }
+
+@media screen and (max-width: 767px) {
+    .eventPosition {
+        padding-top: 250%;
+    }
+
+    .headerTitle {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px; /* 288% */
+        letter-spacing: -0.5px;
+        text-transform: capitalize;
+    }
+
+    .headerSubtitle {
+        padding-top: 15%;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; 
+    }
+
+    .backBlur {
+        width: 100vw;
+        height: 90vh;
+    }
+
+}

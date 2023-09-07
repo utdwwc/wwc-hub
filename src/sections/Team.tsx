@@ -80,7 +80,7 @@ function Team() {
                         </div>
                     </div>
                         <div className={styles.content}>
-                            <div className={styles.name}>Alekhyaa Reddy</div>
+                            <div className={styles.name}>Alekhyaa Donthireddy</div>
                             <div className={styles.title}>Treasurer</div>
                         </div>
                 </div>
@@ -304,7 +304,7 @@ function Team() {
                             </div>
                         </div>
                             <div className={styles.content}>
-                                <div className={styles.name}>Alekhyaa Reddy</div>
+                                <div className={styles.name}>Alekhyaa Donthireddy</div>
                                 <div className={styles.title}>Treasurer</div>
                             </div>
                     </div>

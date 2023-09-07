@@ -8,8 +8,8 @@ import goldmanSachs from '../images/events/goldmanSachs.png';
 
 const cardData = [
     {
-        title:'2023 Fall Kickoff',
-        date: '2023-15-09',
+        title:'Goldman Sachs Event',
+        date: '2023-09-12',
         subtitle:'7 PM @ SLC 2.304',
         picture: goldmanSachs,
         startTime:'15:00',
@@ -18,7 +18,7 @@ const cardData = [
     },
     {
         title:'2023 Fall Kickoff',
-        date: '2023-15-09',
+        date: '2023-09-07',
         subtitle:'7 PM @ SLC 2.304',
         picture: kickOffPost,
         startTime:'15:00',

@@ -166,13 +166,13 @@ function Team() {
                             </div>
                         </div>
                         <div className={styles.iconContainer} >
-                            <a href='google.com'>
+                            <a href='https://github.com/AishwaryaSudarshan'>
                                 <img src={Github} className={styles.github} alt='github' />
                             </a>
-                            <a href='google.com'>
+                            <a href='https://www.linkedin.com/in/aishwarya-sudarshan/'>
                                 <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
                             </a>
-                            <a href='google.com'>
+                            <a href='mailto:aishwaryasudarshan18@gmail.com'>
                                 <img src={Email} className={styles.email} alt='email' />
                             </a>
                         </div>

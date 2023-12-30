@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import Card from '../components/card';
 import styles from '../css/carousel.module.css';
-import leftArrow from '../images/leftarrow.svg';
-import rightArrow from '../images/rightarrow.svg';
+//import leftArrow from '../images/leftarrow.svg';
+//import rightArrow from '../images/rightarrow.svg';
 
 
 
@@ -21,15 +21,15 @@ interface CarouselProps {
 }
 
 const Carousel: React.FC<CarouselProps> = ({ cards }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  //const [currentIndex, setCurrentIndex] = useState(0);
 
-  const goToNextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
-  };
+  // const goToNextSlide = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
+  // };
 
-  const goToPrevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length);
-  };
+  // const goToPrevSlide = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length);
+  // };
 
   return (
     <>

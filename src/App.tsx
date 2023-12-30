@@ -8,6 +8,7 @@ import Footer from './sections/Footer';
 import Team from './sections/Team';
 import { useState } from 'react';
 
+
   const App = () => {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
 

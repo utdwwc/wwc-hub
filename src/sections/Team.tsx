@@ -40,7 +40,7 @@ function Team() {
                     <div className={styles.person}>
                         <div className={styles.left} >
                             <div>
-                                <img src={Muskaan} className={styles.cell} alt='Muskaan' ></img>
+                                <img src={Anjana} className={styles.cell} alt='Anjana' ></img>
                             </div>
                         </div>
                         <div className={styles.iconContainer} >
@@ -56,7 +56,7 @@ function Team() {
                         </div>
                     </div>
                         <div className={styles.content}>
-                            <div className={styles.name}>Muskaan Bansal</div>
+                            <div className={styles.name}>Anjana Bharadwaj</div>
                             <div className={styles.title}>President</div>
                         </div>
                 </div>
@@ -114,23 +114,23 @@ function Team() {
                     <div className={styles.person}>
                         <div className={styles.left} >
                             <div>
-                                <img src={Anjana} className={styles.cell} alt='Anjana' ></img>
+                                <img src={Aishwarya} className={styles.cell} alt='Aishwarya' ></img>
                             </div>
                         </div>
                         <div className={styles.iconContainer} >
-                            <a href='google.com'>
+                            <a href='https://github.com/AishwaryaSudarshan'>
                                 <img src={Github} className={styles.github} alt='github' />
                             </a>
-                            <a href='google.com'>
+                            <a href='https://www.linkedin.com/in/aishwarya-sudarshan/'>
                                 <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
                             </a>
-                            <a href='google.com'>
+                            <a href='mailto:aishwaryasudarshan18@gmail.com'>
                                 <img src={Email} className={styles.email} alt='email' />
                             </a>
                         </div>
                     </div>
                         <div className={styles.content}>
-                            <div className={styles.name}>Anjana Bharadwaj</div>
+                            <div className={styles.name}>Aishwarya Sudarshan</div>
                             <div className={styles.title}>Vice President</div>
                         </div>
                 </div>
@@ -162,32 +162,6 @@ function Team() {
                     <div className={styles.person}>
                         <div className={styles.left} >
                             <div>
-                                <img src={Aishwarya} className={styles.cell} alt='Aishwarya' ></img>
-                            </div>
-                        </div>
-                        <div className={styles.iconContainer} >
-                            <a href='https://github.com/AishwaryaSudarshan'>
-                                <img src={Github} className={styles.github} alt='github' />
-                            </a>
-                            <a href='https://www.linkedin.com/in/aishwarya-sudarshan/'>
-                                <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
-                            </a>
-                            <a href='mailto:aishwaryasudarshan18@gmail.com'>
-                                <img src={Email} className={styles.email} alt='email' />
-                            </a>
-                        </div>
-                    </div>
-                        <div className={styles.content}>
-                            <div className={styles.name}>Aishwarya Sudarshan</div>
-                            <div className={styles.title}>Web Developer</div>
-                        </div>
-                </div>
-            </div>
-            <div className={styles.row} >
-                <div>
-                    <div className={styles.person}>
-                        <div className={styles.left} >
-                            <div>
                                 <img src={Laasya} className={styles.cell} alt='Lasya' ></img>
                             </div>
                         </div>
@@ -206,6 +180,32 @@ function Team() {
                         <div className={styles.content}>
                             <div className={styles.name}>Lasya Reddy</div>
                             <div className={styles.title}>Secretary</div>
+                        </div>
+                </div>
+            </div>
+            <div className={styles.row} >
+                <div>
+                    <div className={styles.person}>
+                        <div className={styles.left} >
+                            <div>
+                                <img src={Muskaan} className={styles.cell} alt='Muskaan' ></img>
+                            </div>
+                        </div>
+                        <div className={styles.iconContainer} >
+                            <a href='google.com'>
+                                <img src={Github} className={styles.github} alt='github' />
+                            </a>
+                            <a href='google.com'>
+                                <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
+                            </a>
+                            <a href='google.com'>
+                                <img src={Email} className={styles.email} alt='email' />
+                            </a>
+                        </div>
+                    </div>
+                        <div className={styles.content}>
+                            <div className={styles.name}>Muskaan Bansal</div>
+                            <div className={styles.title}>Advisor & PPC</div>
                         </div>
                 </div>
                  <div>
@@ -264,7 +264,7 @@ function Team() {
                         <div className={styles.person}>
                             <div className={styles.left} >
                                 <div>
-                                    <img src={Muskaan} className={styles.cell} alt='Muskaan' ></img>
+                                    <img src={Anjana} className={styles.cell} alt='Anjana' ></img>
                                 </div>
                             </div>
                             <div className={styles.iconContainer} >
@@ -280,35 +280,61 @@ function Team() {
                             </div>
                         </div>
                             <div className={styles.content}>
-                                <div className={styles.name}>Muskaan Bansal</div>
+                                <div className={styles.name}>Anjana Bharadwaj</div>
                                 <div className={styles.title}>President</div>
                             </div>
                     </div>
                     <div>
-                        <div className={styles.person}>
-                            <div className={styles.left} >
-                                <div>
-                                    <img src={Alekhyaa} className={styles.cell} alt='Alekhyaa' ></img>
-                                </div>
-                            </div>
-                            <div className={styles.iconContainer} >
-                                <a href='google.com'>
-                                    <img src={Github} className={styles.github} alt='github' />
-                                </a>
-                                <a href='google.com'>
-                                    <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
-                                </a>
-                                <a href='google.com'>
-                                    <img src={Email} className={styles.email} alt='email' />
-                                </a>
+                    <div className={styles.person}>
+                        <div className={styles.left} >
+                            <div>
+                                <img src={Aishwarya} className={styles.cell} alt='Aishwarya' ></img>
                             </div>
                         </div>
-                            <div className={styles.content}>
-                                <div className={styles.name}>Alekhyaa Donthireddy</div>
-                                <div className={styles.title}>Treasurer</div>
-                            </div>
+                        <div className={styles.iconContainer} >
+                            <a href='https://github.com/AishwaryaSudarshan'>
+                                <img src={Github} className={styles.github} alt='github' />
+                            </a>
+                            <a href='https://www.linkedin.com/in/aishwarya-sudarshan/'>
+                                <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
+                            </a>
+                            <a href='mailto:aishwaryasudarshan18@gmail.com'>
+                                <img src={Email} className={styles.email} alt='email' />
+                            </a>
+                        </div>
+                    </div>
+                        <div className={styles.content}>
+                            <div className={styles.name}>Aishwarya Sudarshan</div>
+                            <div className={styles.title}>Vice President</div>
+                        </div>
                     </div>
                     <div>
+                    <div className={styles.person}>
+                        <div className={styles.left} >
+                            <div>
+                                <img src={Muskaan} className={styles.cell} alt='Muskaan' ></img>
+                            </div>
+                        </div>
+                        <div className={styles.iconContainer} >
+                            <a href='google.com'>
+                                <img src={Github} className={styles.github} alt='github' />
+                            </a>
+                            <a href='google.com'>
+                                <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
+                            </a>
+                            <a href='google.com'>
+                                <img src={Email} className={styles.email} alt='email' />
+                            </a>
+                        </div>
+                    </div>
+                        <div className={styles.content}>
+                            <div className={styles.name}>Muskaan Bansal</div>
+                            <div className={styles.title}>Advisor & PPC</div>
+                        </div>
+                </div>
+                </div>
+                <div className={styles.row2} >
+                <div>
                         <div className={styles.person}>
                             <div className={styles.left} >
                                 <div>
@@ -332,32 +358,6 @@ function Team() {
                                 <div className={styles.title}>Marketing Designer</div>
                             </div>
                     </div>
-                </div>
-                <div className={styles.row2} >
-                <div>
-                    <div className={styles.person}>
-                        <div className={styles.left} >
-                            <div>
-                                <img src={Anjana} className={styles.cell} alt='Anjana' ></img>
-                            </div>
-                        </div>
-                        <div className={styles.iconContainer} >
-                            <a href='google.com'>
-                                <img src={Github} className={styles.github} alt='github' />
-                            </a>
-                            <a href='google.com'>
-                                <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
-                            </a>
-                            <a href='google.com'>
-                                <img src={Email} className={styles.email} alt='email' />
-                            </a>
-                        </div>
-                    </div>
-                        <div className={styles.content}>
-                            <div className={styles.name}>Anjana Bharadwaj</div>
-                            <div className={styles.title}>Vice President</div>
-                        </div>
-                </div>
                  <div>
                     <div className={styles.person}>
                         <div className={styles.left} >
@@ -383,29 +383,29 @@ function Team() {
                         </div>
                 </div>
                 <div>
-                    <div className={styles.person}>
-                        <div className={styles.left} >
-                            <div>
-                                <img src={Aishwarya} className={styles.cell} alt='Aishwarya' ></img>
+                        <div className={styles.person}>
+                            <div className={styles.left} >
+                                <div>
+                                    <img src={Alekhyaa} className={styles.cell} alt='Alekhyaa' ></img>
+                                </div>
+                            </div>
+                            <div className={styles.iconContainer} >
+                                <a href='google.com'>
+                                    <img src={Github} className={styles.github} alt='github' />
+                                </a>
+                                <a href='google.com'>
+                                    <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
+                                </a>
+                                <a href='google.com'>
+                                    <img src={Email} className={styles.email} alt='email' />
+                                </a>
                             </div>
                         </div>
-                        <div className={styles.iconContainer} >
-                            <a href='google.com'>
-                                <img src={Github} className={styles.github} alt='github' />
-                            </a>
-                            <a href='google.com'>
-                                <img src={Linkedin} className={styles.linkedin} alt='linkedin' />
-                            </a>
-                            <a href='google.com'>
-                                <img src={Email} className={styles.email} alt='email' />
-                            </a>
-                        </div>
+                            <div className={styles.content}>
+                                <div className={styles.name}>Alekhyaa Donthireddy</div>
+                                <div className={styles.title}>Treasurer</div>
+                            </div>
                     </div>
-                        <div className={styles.content}>
-                            <div className={styles.name}>Aishwarya Sudarshan</div>
-                            <div className={styles.title}>Web Developer</div>
-                        </div>
-                </div>
                 </div>
                 <div className={styles.row2} >
                 <div>

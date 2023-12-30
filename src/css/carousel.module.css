@@ -16,12 +16,24 @@
 
 .carousel {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     position: relative;
     overflow-x: hidden;  
     width: 99vw;
     max-width: 100%;
+  }
+
+  .rowContain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* position: relative; */
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+
   }
   
   .carouselContainer {
@@ -61,6 +73,10 @@
     align-items: right;
     display: flex;
 
+}
+
+.spacing {
+  gap:40px;
 }
 
 .leftArrow:hover, .rightArrow:hover {

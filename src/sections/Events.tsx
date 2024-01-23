@@ -9,8 +9,18 @@ import SMf23 from '../images/events/SMf23.png';
 import CraftC1f23 from '../images/events/CraftC1f23.png';
 import gsNetworkf23 from '../images/events/gsNetworkf23.png';
 import Crederaf23 from '../images/events/Credera.png';
+import s24Kickoff from '../images/events/s24kickoff.png';
 
 const cardData = [
+    {
+        title:'WWC Kickoff',
+        date: '2024-01-23',
+        subtitle:'7:00 PM @ SCI 2.230',
+        picture: s24Kickoff,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
     {
         title:'Case Study Workshop',
         date: '2023-11-08',

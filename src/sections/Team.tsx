@@ -4,7 +4,7 @@ import Github from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
 import Email from '../images/email.png';
 
-import Muskaan from '../images/team/muskaan.png';
+import Nihita from '../images/team/nihita.png';
 import Anjana from '../images/team/anjana.png';
 import Laasya from '../images/team/laasya.png';
 import Alekhyaa from '../images/team/alekhyaa.png';
@@ -188,7 +188,7 @@ function Team() {
                     <div className={styles.person}>
                         <div className={styles.left} >
                             <div>
-                                <img src={Muskaan} className={styles.cell} alt='Muskaan' ></img>
+                                <img src={Nihita} className={styles.cell} alt='Nihita' ></img>
                             </div>
                         </div>
                         <div className={styles.iconContainer} >
@@ -204,8 +204,8 @@ function Team() {
                         </div>
                     </div>
                         <div className={styles.content}>
-                            <div className={styles.name}>Muskaan Bansal</div>
-                            <div className={styles.title}>Advisor & PPC</div>
+                            <div className={styles.name}>Nihita Soma</div>
+                            <div className={styles.title}>Event Planner</div>
                         </div>
                 </div>
                  <div>
@@ -312,7 +312,7 @@ function Team() {
                     <div className={styles.person}>
                         <div className={styles.left} >
                             <div>
-                                <img src={Muskaan} className={styles.cell} alt='Muskaan' ></img>
+                                <img src={Nihita} className={styles.cell} alt='Nihita' ></img>
                             </div>
                         </div>
                         <div className={styles.iconContainer} >
@@ -328,8 +328,8 @@ function Team() {
                         </div>
                     </div>
                         <div className={styles.content}>
-                            <div className={styles.name}>Muskaan Bansal</div>
-                            <div className={styles.title}>Advisor & PPC</div>
+                            <div className={styles.name}>Nihita Soma</div>
+                            <div className={styles.title}>Event Planner</div>
                         </div>
                 </div>
                 </div>

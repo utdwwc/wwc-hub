@@ -56,7 +56,7 @@ function Values() {
                 </div>
                 <div className={styles.bottomRightSmall}>
                         <div className={styles.titleSmall}>
-                            WeHack 2020
+                            WeHack
                         </div>
                         <div className={styles.descriptionSmall} >
                         WeHack at UTD: Empowering underrepresented tech innovators to build skills and solve complex problems through our women and non-binary focused hackathon.
@@ -98,7 +98,7 @@ function Values() {
                     <div className={styles.bottomRight}>
                         <img src={WeHack} className={styles.hack} alt='WeHack' />
                         <div className={styles.title4}>
-                            WeHack 2020
+                            WeHack
                         </div>
                         <div className={styles.description4} >
                         WeHack at UTD: Empowering underrepresented tech innovators to build skills and solve complex problems through our women and non-binary focused hackathon.

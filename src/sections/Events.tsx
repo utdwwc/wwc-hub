@@ -3,15 +3,105 @@ import backPic from '../images/eventsBack.svg';
 import CardCarousel from '../components/carousel';
 
 //Pictures
-import kickOffPostf23 from '../images/events/kickoffPost.jpeg';
-import hubSpotf23 from '../images/events/Hubspot.png';
-import SMf23 from '../images/events/SMf23.png';
-import CraftC1f23 from '../images/events/CraftC1f23.png';
-import gsNetworkf23 from '../images/events/gsNetworkf23.png';
-import Crederaf23 from '../images/events/Credera.png';
-import s24Kickoff from '../images/events/s24kickoff.png';
+import kickOffPostf23 from '../images/events/pastEvents/kickoffPost.jpeg';
+import hubSpotf23 from '../images/events/pastEvents/Hubspot.png';
+import SMf23 from '../images/events/pastEvents/SMf23.png';
+import CraftC1f23 from '../images/events/pastEvents/CraftC1f23.png';
+import gsNetworkf23 from '../images/events/pastEvents/gsNetworkf23.png';
+import Crederaf23 from '../images/events/pastEvents/Credera.png';
+import s24Kickoff from '../images/events/pastEvents/s24kickoff.png';
+import HubspotEvent from '../images/events/pastEvents/hubspot2.png';
+import Epsilon from '../images/events/pastEvents/epsilon.png';
+import SMs24 from '../images/events/pastEvents/SMs24.png';
+import SWECollab from '../images/events/pastEvents/SWECollab.png';
+import c1event from '../images/events/pastEvents/c1event.png';
+import JPMCOfficeTour from '../images/events/pastEvents/JPMCOfficeTour.png';
+import SFOfficeTour from '../images/events/pastEvents/SFOfficeTour.png';
+import FinalSocial from '../images/events/pastEvents/FinalSocial.png';
+import f24Kickoff from '../images/events/f24Kickoff.png'
 
 const cardData = [
+    {
+        title:'Fall 2024 Kickoff',
+        date: '2024-08-27',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: f24Kickoff,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'Blackstone Launchpad',
+    },
+    {
+        title:'Final De-Stress Social',
+        date: '2024-01-23',
+        subtitle:'7:00 PM @ SCI 2.230',
+        picture: FinalSocial,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'Salesforce Office Tour',
+        date: '2024-01-23',
+        subtitle:'2:00 PM @ Salesforce',
+        picture: SFOfficeTour,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'JPMC Office Tour',
+        date: '2024-01-23',
+        subtitle:'2:00 PM @ JPMC',
+        picture: JPMCOfficeTour,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'Perfect Your Elevator Pitch',
+        date: '2024-01-23',
+        subtitle:'7:00 PM @ SCI 3.270',
+        picture: c1event,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'Systems Design Prep',
+        date: '2024-01-23',
+        subtitle:'8:00 PM @ SLC 2.304',
+        picture: SWECollab,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'Speed Mentoring',
+        date: '2024-01-23',
+        subtitle:'7:00 PM @ CRA 12.120',
+        picture: SMs24,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'Epsilon and Generative AI',
+        date: '2024-01-23',
+        subtitle:'7:00 PM @ GR 4.204',
+        picture: Epsilon,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
+    {
+        title:'HubSpot Event',
+        date: '2024-01-23',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: HubspotEvent,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'SCI 2.230',
+    },
     {
         title:'WWC Kickoff',
         date: '2024-01-23',

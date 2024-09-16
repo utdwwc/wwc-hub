@@ -18,9 +18,39 @@ import c1event from '../images/events/pastEvents/c1event.png';
 import JPMCOfficeTour from '../images/events/pastEvents/JPMCOfficeTour.png';
 import SFOfficeTour from '../images/events/pastEvents/SFOfficeTour.png';
 import FinalSocial from '../images/events/pastEvents/FinalSocial.png';
-import f24Kickoff from '../images/events/f24Kickoff.png'
+import f24Kickoff from '../images/events/f24Kickoff.png';
+import geico from '../images/events/geico.png';
+import headshots from '../images/events/headshots.png';
+import SM24 from '../images/events/SM24.png';
 
 const cardData = [
+    {
+        title:'Speed Mentoring',
+        date: '2024-09-17',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: SM24,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'Blackstone Launchpad',
+    },
+    {
+        title:'Professional Headshots',
+        date: '2024-08-27',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: headshots,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'Blackstone Launchpad',
+    },
+    {
+        title:'Geico Event',
+        date: '2024-08-27',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: geico,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'Blackstone Launchpad',
+    },
     {
         title:'Fall 2024 Kickoff',
         date: '2024-08-27',

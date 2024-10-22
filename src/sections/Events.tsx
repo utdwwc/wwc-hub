@@ -22,8 +22,48 @@ import f24Kickoff from '../images/events/f24Kickoff.png';
 import geico from '../images/events/geico.png';
 import headshots from '../images/events/headshots.png';
 import SM24 from '../images/events/SM24.png';
+import epsilon from '../images/events/epsilon (1).png';
+import goldman24 from '../images/events/goldman (2).png';
+import braceletMakingSocial from '../images/events/litmp social (1).png'; 
+import roblox from '../images/events/roblox.png'; 
 
 const cardData = [
+    {
+        title:'Bracelet Making Social',
+        date: '2024-10-15',
+        subtitle:'06:45 PM @ Callier',
+        picture: braceletMakingSocial,
+        startTime:'18:45',
+        endTime:'19:45',
+        location:'CR 1.212',
+    },
+    {
+        title:'Mastering the Roblox OA',
+        date: '2024-10-08',
+        subtitle:'12:00 PM @ TI Auditorium',
+        picture: roblox,
+        startTime:'12:00',
+        endTime:'13:00',
+        location:'TI Auditorium',
+    },
+    {
+        title:'Intern and New Grad Perspectives with Goldman Sachs',
+        date: '2024-10-01',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: goldman24,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'Blackstone Launchpad',
+    },
+    {
+        title:'Day in the life with Epsilon',
+        date: '2024-09-24',
+        subtitle:'7:00 PM @ Blackstone',
+        picture: epsilon,
+        startTime:'19:00',
+        endTime:'20:00',
+        location:'Blackstone Launchpad',
+    },
     {
         title:'Speed Mentoring',
         date: '2024-09-17',

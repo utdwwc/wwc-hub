@@ -1,0 +1,84 @@
+@media screen and (max-width: 767px) {
+  .carouselContainer {
+    padding-right: 10px;
+  }
+
+  .carouselSlide {
+    width: 100vw;
+    overflow: hidden;
+    flex: 0 0 100%;
+    transition: transform 1s ease-in-out;
+    display: flex;
+    min-height: 20vh;
+  }
+
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;  
+    width: 99vw;
+    max-width: 100%;
+  }
+
+  .rowContain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* position: relative; */
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+
+  }
+  
+  .carouselContainer {
+    display: flex;
+    overflow-x: scroll; 
+    width: 100%;
+    position: relative;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  .carouselContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .carouselSlide {
+    flex: 0 0 100%;
+    transition: transform 1s ease-in-out;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    min-height: 20vh;
+  
+  }
+  
+  .activeSlide {
+    transform: translateX(0);
+  }
+  
+.arrows {
+    padding-left: 10%;
+    padding-bottom: 51px;
+    width: 80vw;
+    gap: 20px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+
+}
+
+.spacing {
+  gap:40px;
+}
+
+.leftArrow:hover, .rightArrow:hover {
+  box-shadow: 0px 4px 0px 0px;
+}

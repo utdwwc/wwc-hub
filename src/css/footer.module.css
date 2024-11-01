@@ -1,0 +1,111 @@
+@media screen and (max-width: 767px) {
+    .sectionContainer {
+        display: none;
+    }  
+
+  .contact {
+    color: #FFE8ED;
+    display: none;
+  }
+
+  .contact2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 40%; 
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .contactText {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+    .contact2 {
+        display: none;
+    }
+
+    .contactText2 {
+        display: hidden;
+    }
+
+    .contact {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        top: 50%;
+        position: absolute;
+        top: 37%; 
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        border: 3px solid black;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .contact:hover {
+        box-shadow: 0px 4px 0px #070707;
+    }
+
+    .sectionContainer {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 45px;  
+    margin-top: 1%;
+    margin-right: 12%;
+    align-items: right;
+    justify-content: right;
+    z-index: 2;
+    
+}
+}
+
+.bottomBar {
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.textField {
+    position: absolute;
+    top: 77%;
+    left: 32%; 
+    text-align: center;
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 800 !important;
+    background-color: transparent;
+    border: none;
+}
+
+.backImage {
+    width: 100vw;
+}
+
+.bigContain {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

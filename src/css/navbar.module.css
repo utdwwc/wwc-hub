@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logoContainer {
+    margin-left: 4%;
+    margin-top: 1%;
+
+}
+
+.logoContainer img {
+    width: 100px;
+}
+
+.sectionContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px;  
+    margin-top: 1%;
+    margin-right: 4%;
+    align-items: right;
+    justify-content: right;
+    z-index: 2;
+    font-weight: 800;
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 800 !important;
+    background-color: transparent;
+    border: none;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.line {
+    position: absolute;
+    width: 100vw;
+    left: -5px;
+    top: 133px;
+    border: 0.5px solid #000000;
+    z-index: 2;
+}
+
+  
+  /* Styles for mobile screens */
+  @media screen and (max-width: 767px) {
+    .navbarContainer {
+      display: none;
+    }
+  }
+  

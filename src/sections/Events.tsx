@@ -22,8 +22,18 @@ import f24Kickoff from '../images/events/f24Kickoff.png';
 import geico from '../images/events/geico.png';
 import headshots from '../images/events/headshots.png';
 import SM24 from '../images/events/SM24.png';
+import s25Kickoff from '../images/events/s25Kickoff.png';
 
 const cardData = [
+    {
+        title:'Spring 2025 Kickoff',
+        date: '2025-02-04',
+        subtitle:'7:15 PM @ SCI 2.230',
+        picture: s25Kickoff,
+        startTime:'19:15',
+        endTime:'20:15',
+        location:'SCI 2.230',
+    },
     {
         title:'Speed Mentoring',
         date: '2024-09-17',

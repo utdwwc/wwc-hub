@@ -2,6 +2,7 @@
   .card {
     display: none;
   }
+}
 
   .card2 {
     width: 323px;
@@ -14,7 +15,7 @@
     overflow-x: hidden !important;
     overflow-y: hidden !important;
   }
-
+  
   .pic2 {
     width: 240px;
     height: 240px;
@@ -55,12 +56,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: -10%;
+    padding-top: 0%;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
   }
 
-}
 
 @media screen and (min-width: 768px) {
   .card2 {
@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
     width: 390px;
-    height: 650px;
+    height: 700px; /* adjusted to fit new insta 4:5 dimensions */
     background-color: white;
     border: #000000 2px solid;
     border-radius: 15px;
@@ -83,7 +83,7 @@
   
   .pic {
     width: 350px;
-    margin-top: 7%;
+    margin-top: 5%;
     margin-left: 4%;
     height: 350px;
     border-radius: 30px;
@@ -104,15 +104,14 @@
     font-size: 25px;
     height: 25px;
     color: black;
-    margin-top: -3%;
-
+    margin-top: -5%;
   }
   
   .addCalendar {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 68px;
-    margin-top: 10%;
+    height: 80px;
+    margin-top: -3%;
   }
   

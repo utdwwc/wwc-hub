@@ -3,7 +3,16 @@
 
 .eventPosition {
     position: relative;
+    aspect-ratio: 4/5;
 }
+
+/* adjusted to fit new insta feed 4:5 dimensions */
+.eventPosition img {
+    width: 91%;
+    height: 91%;
+    object-fit: cover;
+}
+
 
 .headerTitle {
     position: absolute;
@@ -39,8 +48,6 @@
     display: flex;
     background-image: url('../images/eventsBack.svg');
     background-repeat: no-repeat;
-
-
 }
 
 .cardContainer {
@@ -61,6 +68,7 @@
     .eventPosition {
         padding-top: 250%;
         width: 100vw;
+        aspect-ratio: 4/5;
     }
 
 

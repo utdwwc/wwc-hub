@@ -103,8 +103,8 @@ function Team() {
             name: "Sameera Kandalgaonkar",
             position: "UX Designer",
             image: Sameera,
-            github: "https://github.com",
-            linkedin: "",
+            github: "https://github.com/SameeraaGKan",
+            linkedin: "https://linkedin.com/in/sameeraakan118",
             email: "mailto:sameeraagk883@gmail.com",
         },
     ]; //team array ends here
